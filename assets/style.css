@@ -91,7 +91,6 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
 }
 .title{
 	text-align: center;
@@ -255,7 +254,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me p {
 		width: 100%;
 	}
 }
