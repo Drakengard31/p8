@@ -69,7 +69,7 @@ body {
 
 .picture img {
 	width: 100%;
-	height: auto;
+
 }
 #about-me {
 	flex: 2
@@ -90,8 +90,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-}
+/* #gallery { */
+	/*	min-height: 100vh; */
+/* } */
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -100,8 +101,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #000000;
+	color: #000;
+	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -254,7 +255,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me p {
+	#about-me h6, #about-me p {
 		width: 100%;
 	}
 }
